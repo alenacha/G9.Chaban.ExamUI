@@ -1,0 +1,68 @@
+#Home Page
+Home carousel = .//*[@id='slider-carousel']//
+Women category = .//a[@href='#Women']
+Dress subcategory = .//a[@href='/category_products/1']
+Add to cart = .//a[@data-product-id='7' and @class='btn btn-default add-to-cart']
+View cart  = .//a[@href='/view_cart' and not(i)]
+
+#Header
+SignUp/ Login = .//a[@href='/login']
+Logout = .//a[@href='/logout']
+Logged in as = li > a > b
+Delete account = .//a[@href='/delete_account']
+Cart = a[href='/view_cart'] > i.fa.fa-shopping-cart
+Products =.//a[@href='/products']
+
+#Login Page
+"New User SignUp!" = .//h2[contains(text(),'New User Signup!')]
+Name input = .//input[@data-qa='signup-name']
+Email input = .//input[@data-qa='signup-email']
+SignUp button = .//button[@data-qa='signup-button']
+
+Email input for login = .//input[@data-qa='login-email']
+Login input for login = .//input[@data-qa='login-password']
+Button Login = .//button[@data-qa='login-button']
+
+#SignUp Page
+Password input = .//input[@id='password']
+First Name input = .//input[@id='first_name']
+Last Name input = .//input[@id='last_name']
+Address input =.//input[@id='address1']
+State input = .//input[@id='state']
+City input = .//input[@id='city']
+Zip input = .//input[@id='zipcode']
+Mobile number = .//input[@id='mobile_number']
+Create account button = .//button[@data-qa="create-account"]
+
+#Account Created page
+Successful message = .//b[contains(text(),'Account Created!')]
+Continue button = .//a[@data-qa='continue-button']
+
+#Account Deleted page
+Successful message = .//b[contains(text(),'Account Deleted!')]
+Continue button = .//a[@data-qa='continue-button']
+
+#Cart Page
+Subscription = .//h2["Subscription"]
+Email input = .//input[@id='susbscribe_email']
+Submit button = .//button[@id='subscribe']
+Success message = div#success-subscribe > div.alert-success.alert
+Breadcrumbs = .//li[contains(text(), 'Shopping Cart')]
+Added product label = //a[contains(text(), 'Madame Top For Women')]"
+Added product price = //td[@class='cart_total']/p[@class='cart_total_price'][text()='Rs. 1000']
+
+#Category product page
+Text for women category = .//h2[contains(text(),'Women - Dress Products')]
+
+
+#Product page
+Text for "All products" = .//h2[contains(text(),'All Products')]
+View product = .//a[@href='/product_details/1']
+
+#Product details page
+Write your review = .//a[@href='#reviews']
+Name input = .//input[@id='name']
+Email input = .//input[@id='email']
+Review input = .//textarea[@id='review']
+Submit button = .//button[@id='button-review']
+Success message = //div[@class="alert-success alert"]/span[text()="Thank you for your review."]

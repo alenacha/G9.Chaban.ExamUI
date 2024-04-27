@@ -1,0 +1,115 @@
+№001 Register User
+
+Precondition
+1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+
+STR:
+1. Click on 'Signup / Login' button
+2. Verify 'New User Signup!' is visible
+3. Enter 'Name' as 'Johny'
+4. Enter 'Email' as 'johnny.depp@gmail.com'
+5. Click 'Signup' button
+6. Fill in all required fields:
+    - 'Password' as '123456'
+    - 'First Name' as 'Johnny'
+    - 'Last Name' as 'Depp'
+    - 'Address' as 'Hollywood'
+    - 'State' as 'California'
+    - 'City' as 'Los Angeles
+    - 'Zip Code' as '90001'
+    - 'Mobile Number' as '1234567890'
+7. Click on 'Create account' button
+8. Verify that 'ACCOUNT CREATED!' is visible
+9. Click on 'Continue' button
+
+Expected result:
+1. Verify that 'Logged in as username' is visible
+2. Verify that 'Logout' button is visible
+3. Verify that 'Delete Account' button is visible
+
+Post condition
+1. Click on 'Delete Account' button
+2. Verify that 'Account Deleted' is visible
+3. Click on 'Continue' button
+4. Verify that 'Logged in as username' is not visible
+
+№002 Verify Subscription in Cart page
+
+Precondition
+1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+
+STR:
+1. Click on 'Cart' button
+2. Verify that 'Cart' page is visible
+3. Scroll down to footer
+4. Verify text 'SUBSCRIPTION'
+5. Enter email address in input and click arrow button e.g. 'test@gmai.com'
+6. Click on 'Subscribe' button
+
+
+Expected result:
+1. Verify success message 'You have been successfully subscribed!' is visible
+
+Post condition
+----------------
+
+№003 Check Category Products
+
+Precondition
+1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+
+STR:
+1. Click on 'Women' category
+2. Click on 'Dress' subcategory
+
+Expected result:
+1. Category page is displayed and confirm text 'WOMEN - DRESS PRODUCTS' is displayed
+2. There are 3 products that contains 'Dress' in label displayed
+
+Post condition
+----------------
+
+№004 Add review on product
+
+Precondition
+1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+
+STR:
+1. Click on 'Products' button
+2. Verify user is navigated to ALL PRODUCTS page successfully
+3. Click on 'View Product' button
+4. Verify 'Write Your Review' is visible
+5. Enter Name as 'Johnny'
+6. Enter Email as 'johnny.depp@gmail.com'
+7. Enter Review as 'Great product'
+8. Click on 'Submit' button
+
+Expected result:
+1. Success message 'Thank you for your review.' is displayed
+
+
+Post condition
+----------------
+
+№005 Add Item to cart
+
+Precondition
+1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+
+STR:
+1. Click on 'Add To Cart' on 'Madame Top For Women' product
+3. Click on 'View Cart' button in modal window
+
+Expected result:
+1. Verify that 'Summer White Top' product is added to cart
+2. Price = Rs. 1000
